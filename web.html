@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>   </title>
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <py-env>
+           - numpy
+           - matplotlib
+        </py-env>
+
+        <style>
+            .kutu1{
+                width: 20px;
+                height: 20px;
+                background-color:orange;
+                position: absolute;
+                left: 90px;
+            }
+            .kutu2{
+                width: 20px;
+                height: 20px;
+                background-color:rgb(64, 98, 131);
+                position: absolute;
+                left: 20px;
+            }
+           
+        </style>
+    </head>
+     
+    
+
+    <body>
+        
+        <div class="kutu1"> <p>2019</p> </div>
+        <div class="kutu2"><p>2022</p> </div>
+        <py-script>
+            import matplotlib.pyplot as plt
+            plt.plot([10,20,30,40,50,60,70])
+            plt.ylabel("Oranlar")
+            plt.title("Türkiye'nin Enflasyon Oranları")
+            plt
+            plt.plot([11,12,13,14,15])
+            plt
+       
+        </py-script>
+        
+    </body>
+    
+</html>
